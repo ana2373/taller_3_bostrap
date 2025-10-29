@@ -1,48 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Halloween</title>
     <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>pagina galeria</title>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
 </head>
-<body>
-    <section>
-    <div class="container">
-        <div class="col">
-            <div class="menu">
-                <ul>
-                    <li><a href="bienvenida.html">bienvenida</a></li>
-                    <li><a href="index.html">inicio</a></li>
-                    <li><a href="galeria.html">galeria</a></li>
-                    <li><a href="historia.html">historia</a></li>
-                    <li><a href="contacto.html">contacto</a></li>
-                </ul>
-                
-            </div>
-            <div><h1>HALLOWEEN</h1></div>
-            <div class="galeria">
-            <div class="imagenes1 ">
-                <img src="https://wallpapers.com/images/hd/1920-x-1080-halloween-zxh730v3b6q28fa1.jpg" alt="imggal" height="300">
-                <img src="https://play-lh.googleusercontent.com/52py3YEUuxRdgmA5QHct3RaR5GHejI0mWiBuFY-BTdyMENWVtr77MArJFe-Gzd4spw" alt="imggal2" height="300" width="500">
-            </div>
-            <div class="imagenes2">
-                <img src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2018/10/noche-halloween.png?tf=3840x" alt="img3" height="300" width="500">
-                <img src="https://filasiete.com/wp-content/uploads/2018/10/it-capitulo-2.jpg" alt="img4" height="300" width="500">
-            </div >
-            <div class="imagenes3">
-                <img src="https://img.aullidos.com/imagenes/noticias/tw-32967.jpg" alt="img5" height="300">
-                <img src="https://img3.wallspic.com/attachments/originals/6/3/3/4/64336-noches_de_terror_de_halloween-2560x1600.jpg" alt="img6" height="300" width="500">
-            </div>
-            <div class="imagenes4">
-                <img src="https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/C2ED/production/_121210994_gettyimages-1039494718.jpg.webp" alt="img3" height="300" width="500">
-                <img src="https://fotografias-2.larazon.es/clipping/cmsimages02/2019/10/23/FD73157A-D1C1-4D57-97DE-EA5D107B6DAE/98.jpg?crop=2000,1125,x0,y104&width=1900&height=1069&optimize=low&format=webply" alt="img7" height="300" width="500">
-            </div>
+<body class="bg-black text-light">
+    <div class="d-flex">
+        <nav class="bg-dark p-4 vh-100" id="menu">
+            <h3 class="text-warning mb-4">🎃 Menú</h3>
+            <ul class="nav flex-column">
+                <li class="nav-item"><a href="bienvenida.html" class="nav-link text-light">Bienvenida</a></li>
+                <li class="nav-item"><a href="index.html" class="nav-link text-light">Inicio</a></li>
+                <li class="nav-item"><a href="galeria.html" class="nav-link text-warning">Galería</a></li>
+                <li class="nav-item"><a href="historia.html" class="nav-link text-light">Historia</a></li>
+                <li class="nav-item"><a href="contacto.html" class="nav-link text-light">Contacto</a></li></ul>
+            </nav>
+            <main class="flex-grow-1 p-5 text-center">
+                <h1 class="text-warning mb-4">🕸 Galería de Halloween 🕸</h1>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <a href="https://youtu.be/3zW5CgDPDJA"><img class="imagenes1" src="https://wallpapers.com/images/hd/1920-x-1080-halloween-zxh730v3b6q28fa1.jpg" class="img-fluid rounded shadow" alt="Imagen 1" height="300" width="400"></a>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="imagenes4" src="https://play-lh.googleusercontent.com/52py3YEUuxRdgmA5QHct3RaR5GHejI0mWiBuFY-BTdyMENWVtr77MArJFe-Gzd4spw" class="img-fluid rounded shadow" alt="Imagen 2" height="300" width="400">
+                    </div>
+                    <div class="col-md-6">
+                        <a href="https://youtu.be/A_GDrNoV96o"><img class=" imagenes3" src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2018/10/noche-halloween.png?tf=3840x" class="img-fluid rounded shadow" alt="Imagen 3" height="300" width="400"></a>
         </div>
-</div>
+        <div class="col-md-6">
+            <img class="imagenes2" src="https://filasiete.com/wp-content/uploads/2018/10/it-capitulo-2.jpg" class="img-fluid rounded shadow" alt="Imagen 4" height="300" width="400">
+        </div>
+        <div class="col-md-6">
+            <img class="imagenes2" src="https://img3.wallspic.com/attachments/originals/6/3/3/4/64336-noches_de_terror_de_halloween-2560x1600.jpg" class="img-fluid rounded shadow" alt="Imagen 5" height="300" width="400">
+        </div>
+        <div class="col-md-6">
+            <img class="imagenes3" src="https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/C2ED/production/_121210994_gettyimages-1039494718.jpg.webp" class="img-fluid rounded shadow" alt="Imagen 6" height="300" width="400">
+        </div>
     </div>
-    </section>
-    <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+</main>
+</div>
+
+<script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

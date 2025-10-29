@@ -1,3 +1,9 @@
+body{
+    font-family: 'Creepster', cursive;
+    background-color: #000;
+    color: #f8f9fa;
+    padding: top ;
+}
 ul{
     text-decoration: none;
     list-style: none;
@@ -8,12 +14,19 @@ ul{
     gap: 10px;
     color: rgba(255, 255, 255, 0.396);
 }
+.nav {
+    position: fixed;
+}
+
 .menu{
-    display: block;
-    float: left;
     position: fixed;
     top: 0;
     z-index: 100;
+    left: 0;
+}
+#menu {
+    min-width: 230px;
+    border-right: 2px solid #ff7518;
 }
 
 .container{
@@ -22,7 +35,7 @@ ul{
     color: rgba(255, 255, 255, 0.6);
     flex-wrap: wrap;
 }
-.img_historia{
+.imgm_historia{
     height: 400;
     width: 300;
 }
@@ -93,3 +106,36 @@ a{
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
 }
+
+#menu a {
+    font-family: 'Creepster', cursive;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+#menu a:hover {
+    color: #ff7518 !important;
+    text-shadow: 0 0 5px #ff7518;
+}
+h1, h2, h3, h4 {
+    text-shadow: 2px 2px 6px #ff7518;
+}
+img {
+    border-radius: 10px;
+    box-shadow: 0 0 15px 3px rgba(255, 117, 24, 0.6);
+}
+.section {
+    margin-top: 40px;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    color: #e8e8e8;
+    text-align: justify;
+}
+.cuento {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 117, 24, 0.3);
+}
+
